@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2021 The Android Open Source Project.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.lunchtray"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="30" />
+24-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:25:5-72
+26-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:25:22-69
+27
+28    <application
+28-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:20:5-36:19
+29        android:allowBackup="true"
+29-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:21:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.3.2] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\e70b5550e792cc5a5f49f4beae756a82\core-1.3.2\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:22:9-43
+33        android:label="@string/app_name"
+33-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:23:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:24:9-54
+35        android:supportsRtl="true"
+35-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:25:9-35
+36        android:theme="@style/Theme.LunchTray" >
+36-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:26:9-47
+37        <activity
+37-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:27:9-35:20
+38            android:name="com.example.lunchtray.MainActivity"
+38-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:28:13-41
+39            android:label="@string/app_name" >
+39-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:29:13-45
+40            <intent-filter>
+40-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:30:13-34:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:31:17-69
+41-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:31:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:33:17-77
+43-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:33:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:28:9-37:20
+47            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+47-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:29:13-96
+48            android:exported="true"
+48-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:30:13-36
+49            android:multiprocess="true"
+49-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:31:13-40
+50            android:taskAffinity=""
+50-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:32:13-36
+51            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+51-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:33:13-78
+52            <intent-filter>
+52-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:31:17-69
+53-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:31:25-66
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\245bb29feb9f36bf829f7df13866b64a\core-1.3.0\AndroidManifest.xml:27:9-33:20
+57            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+57-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\245bb29feb9f36bf829f7df13866b64a\core-1.3.0\AndroidManifest.xml:28:13-99
+58            android:theme="@android:style/Theme" >
+58-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\245bb29feb9f36bf829f7df13866b64a\core-1.3.0\AndroidManifest.xml:29:13-49
+59            <intent-filter>
+59-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:31:17-69
+60-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:31:25-66
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\245bb29feb9f36bf829f7df13866b64a\core-1.3.0\AndroidManifest.xml:34:9-40:20
+64            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+64-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\245bb29feb9f36bf829f7df13866b64a\core-1.3.0\AndroidManifest.xml:35:13-95
+65            android:theme="@android:style/Theme" >
+65-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\245bb29feb9f36bf829f7df13866b64a\core-1.3.0\AndroidManifest.xml:36:13-49
+66            <intent-filter>
+66-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:31:17-69
+67-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:31:25-66
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\245bb29feb9f36bf829f7df13866b64a\core-1.3.0\AndroidManifest.xml:41:9-47:20
+71            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+71-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\245bb29feb9f36bf829f7df13866b64a\core-1.3.0\AndroidManifest.xml:42:13-103
+72            android:theme="@android:style/Theme.Dialog" >
+72-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\245bb29feb9f36bf829f7df13866b64a\core-1.3.0\AndroidManifest.xml:43:13-56
+73            <intent-filter>
+73-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\74ce8584d0b9cdfafc842a7d959923c7\fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:31:17-69
+74-->D:\Downloads\android-basics-kotlin-lunch-tray-app-main\app\src\main\AndroidManifest.xml:31:25-66
+75            </intent-filter>
+76        </activity>
+77    </application>
+78
+79</manifest>

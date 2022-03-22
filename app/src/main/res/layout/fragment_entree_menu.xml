@@ -26,6 +26,9 @@
             type="com.example.lunchtray.model.OrderViewModel" />
 
         <!-- TODO: Add the data binding variable for the EntreeMenuFragment -->
+        <variable
+            name="entreeMenuFragment"
+            type="com.example.lunchtray.ui.order.EntreeMenuFragment" />
     </data>
 
 
@@ -55,7 +58,9 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["cauliflower"].name}'
-                    tools:text="Entree 1" />
+                    tools:text="Entree 1"
+                    android:onClick='@{() -> viewModel.setEntree("cauliflower")}'
+                    />
 
                 <TextView
                     android:id="@+id/cauliflower_description"
@@ -85,7 +90,9 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["chili"].name}'
-                    tools:text="Entree 2" />
+                    tools:text="Entree 2"
+                    android:onClick='@{() -> viewModel.setEntree("chili")}'
+                    />
 
                 <TextView
                     android:id="@+id/chili_description"
@@ -115,7 +122,9 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["pasta"].name}'
-                    tools:text="Entree 3" />
+                    tools:text="Entree 3"
+                    android:onClick='@{() -> viewModel.setEntree("pasta")}'
+                    />
 
                 <TextView
                     android:id="@+id/pasta_description"
@@ -145,7 +154,9 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["skillet"].name}'
-                    tools:text="Entree 4" />
+                    tools:text="Entree 4"
+                    android:onClick='@{() -> viewModel.setEntree("skillet")}'
+                    />
 
                 <TextView
                     android:id="@+id/skillet_description"
@@ -178,6 +189,7 @@
                 style="@style/Widget.LunchTray.TextView.Subtotal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"
+                android:text='@{@string/subtotal(viewModel.subtotal)}'
                 tools:text="Subtotal $5.00"/>
 
             <!-- TODO: cancel the order when clicked -->
@@ -186,7 +198,9 @@
                 style="@style/Widget.Order.Button.Cancel"
                 app:layout_constraintEnd_toStartOf="@id/next_button"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@id/next_button" />
+                app:layout_constraintTop_toTopOf="@id/next_button"
+                android:onClick='@{() -> entreeMenuFragment.cancelOrder()}'
+                />
 
             <!-- TODO: go to the next screen when clicked -->
             <Button
@@ -195,7 +209,9 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/cancel_button"
-                app:layout_constraintTop_toBottomOf="@id/subtotal" />
+                app:layout_constraintTop_toBottomOf="@id/subtotal"
+                android:onClick='@{() -> entreeMenuFragment.goToNextScreen()}'
+                />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

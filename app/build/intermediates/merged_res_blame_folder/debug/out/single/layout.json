@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_entree_menu.xml",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\layout\\fragment_entree_menu.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_accompaniment_menu.xml",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\layout\\fragment_accompaniment_menu.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_side_menu.xml",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\layout\\fragment_side_menu.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_start_order.xml",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\layout\\fragment_start_order.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_checkout.xml",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\layout\\fragment_checkout.xml"
+    }
+]

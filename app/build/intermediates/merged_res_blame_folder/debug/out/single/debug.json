@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_start_order.xml.flat",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\layout\\fragment_start_order.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_checkout.xml.flat",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\layout\\fragment_checkout.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_entree_menu.xml.flat",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\layout\\fragment_entree_menu.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_accompaniment_menu.xml.flat",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\layout\\fragment_accompaniment_menu.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_side_menu.xml.flat",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\layout\\fragment_side_menu.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Downloads\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+    }
+]

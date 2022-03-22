@@ -18,6 +18,9 @@ package com.example.lunchtray
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.NavigationUI.setupActionBarWithNavController
+import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.lunchtray.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -34,5 +37,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // TODO: Retrieve NavController from the NavHostFragment
+        val navHostFragment = supportFragmentManager
+            .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+
+        navController = navHostFragment.navController
+
+
     }
 }
